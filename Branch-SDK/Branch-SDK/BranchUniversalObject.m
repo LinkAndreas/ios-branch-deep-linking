@@ -42,6 +42,7 @@ BranchContentSchema _Nonnull BranchContentSchemaTextReview          = @"TEXT_REV
 BranchContentSchema _Nonnull BranchContentSchemaTextSearchResults   = @"TEXT_SEARCH_RESULTS";
 BranchContentSchema _Nonnull BranchContentSchemaTextStory           = @"TEXT_STORY";
 BranchContentSchema _Nonnull BranchContentSchemaTextTechnicalDoc    = @"TEXT_TECHNICAL_DOC";
+BranchContentSchema _Nonnull BranchContentSchemaTextHTML            = @"public.html";
 
 #pragma mark - BranchCondition
 
