@@ -52,6 +52,7 @@ FOUNDATION_EXPORT BranchContentSchema _Nonnull BranchContentSchemaTextReview;
 FOUNDATION_EXPORT BranchContentSchema _Nonnull BranchContentSchemaTextSearchResults;
 FOUNDATION_EXPORT BranchContentSchema _Nonnull BranchContentSchemaTextStory;
 FOUNDATION_EXPORT BranchContentSchema _Nonnull BranchContentSchemaTextTechnicalDoc;
+FOUNDATION_EXPORT BranchContentSchema _Nonnull BranchContentSchemaTextHTML;
 
 #pragma mark - BranchCondition
 
