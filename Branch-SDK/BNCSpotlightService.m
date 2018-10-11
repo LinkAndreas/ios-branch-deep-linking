@@ -194,7 +194,7 @@ static NSString* const kDomainIdentifier = @"io.branch.sdk.spotlight";
     if (universalObject.keywords && [attributes respondsToSelector:@selector(setKeywords:)])
         [((CSSearchableItemAttributeSetDummyClass*)attributes) setKeywords:universalObject.keywords];
     safePerformSelector(setWeakRelatedUniqueIdentifier:, universalObject.canonicalIdentifier);
-    
+    safePerformSelector(setHTMLContentData:, universalObject.htmlContentData);
     #undef safePerformSelector
 
     return attributes;

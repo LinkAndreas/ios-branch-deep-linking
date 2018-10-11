@@ -111,6 +111,7 @@ FOUNDATION_EXPORT BranchCondition _Nonnull BranchConditionRefurbished;
 @property (nonatomic, strong, nullable) NSString *title;
 @property (nonatomic, strong, nullable) NSString *contentDescription;
 @property (nonatomic, strong, nullable) NSString *imageUrl;
+@property (nonatomic, strong, nullable) NSData   *htmlContentData;
 @property (nonatomic, strong, nullable) NSArray<NSString*> *keywords;
 @property (nonatomic, strong, nullable) NSDate   *creationDate;
 @property (nonatomic, strong, nullable) NSDate   *expirationDate;
